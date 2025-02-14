@@ -11,6 +11,7 @@ pip install "langserve[all]"
 
 実行
 ```shell
+export GOOGLE_API_KEY="hogehogehoge"
 python serve.py
 ```
 

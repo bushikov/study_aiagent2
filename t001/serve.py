@@ -11,7 +11,7 @@ prompt_template = ChatPromptTemplate.from_messages([
 ])
 
 model = ChatGoogleGenerativeAI(
-    temerature=0,
+    temperature=0,
     model="gemini-1.5-pro"
 )
 
